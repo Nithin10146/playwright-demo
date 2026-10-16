@@ -31,3 +31,8 @@ test("Assertion56",async({page})=>{
     const logo2=await page.locator('#nav-logo-sprites');
     await expect(logo2).toBeVisible()
 })
+test("Assertion987",async({page})=>{
+    await page.goto("https://www.amazon.in");
+    const logo2=await page.locator('#nav-logo-sprites');
+    await expect(logo2).toBeVisible()
+})
