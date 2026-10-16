@@ -22,7 +22,7 @@ test.only("Assertion",async({page})=>{
 })
 
 test("Assertion",async({page})=>{
-    await page.goto("https://www.amazon.inW");
+    await page.goto("https://www.amazon.in");
     const logo2=await page.locator('#nav-logo-sprites');
     await expect(logo2).toBeVisible()
 })
